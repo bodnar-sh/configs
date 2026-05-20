@@ -1,0 +1,27 @@
+{
+  "name": "@bodnar-sh/configs",
+  "version": "0.0.0",
+  "description": "Shareable oxlint, oxfmt, and git-hook configs for the bodnar-sh workspace.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Daniel Bodnar <daniel.bodnar@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodnar-sh/configs.git"
+  },
+  "files": [
+    "oxlint",
+    "oxfmt",
+    "git-hooks",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "./oxlint": "./oxlint/base.ts",
+    "./oxfmt": "./oxfmt/base.ts",
+    "./oxfmt/presets": "./oxfmt/presets.ts",
+    "./git-hooks/install": "./git-hooks/install.sh",
+    "./git-hooks/pre-commit": "./git-hooks/pre-commit.sh",
+    "./git-hooks/pre-push": "./git-hooks/pre-push.sh"
+  }
+}
