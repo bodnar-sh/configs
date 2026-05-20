@@ -4,7 +4,7 @@
   "description": "Shareable oxlint, oxfmt, and git-hook configs for the bodnar-sh workspace.",
   "type": "module",
   "license": "MIT",
-  "author": "Daniel Bodnar <daniel.bodnar@gmail.com>",
+  "author": "Daniel Bodnar",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bodnar-sh/configs.git"
